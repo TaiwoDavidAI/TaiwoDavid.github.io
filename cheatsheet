@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cheatsheet</title>
+        <link href="cheatsheet.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML Cheatsheet</h1>
+            <h2>Table Tags</h2>
+        </header>
+
+        <table class="tag">
+            <thead>
+                <tr>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">&lt;table&gt;</th>
+                    <td>Table</td>
+                    <td>The wrapper elment for all HTML tables.</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;thead&gt;</th>
+                    <td>Table head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;tbody&gt;</th>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;tr&gt;</th>
+                    <td>Table Row</td>
+                    <td>The table row container.</td> 
+                </tr>
+                <tr>
+                    <th scope="row">&lt;td&gt;</th>
+                    <td>Table Data</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;tfoot&gt;</th>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--insert css link here-->
+    </head>
+
+    <body>
+        <header> 
+            <h2>Table attributes</h2>
+        </header>
+
+        <table class="attribute">
+            <thead>
+                <tr>
+                    <th scope="col">Attribute</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">&lt;colspan&gt;</th>
+                    <td>Column span</td>
+                    <td>Defines how many columns a td element should cover.</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;rowspan&gt;</th>
+                    <td>Row span</td>
+                    <td>Defines the numbr of rows a td should cover.</td>
+                </tr> 
+            </tbody>
+        </table>
+    </body>
+</html>
