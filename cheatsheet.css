@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+thead {
+    background-color: fuchsia;
+    color: black;
+    text-decoration: navy;
+    
+    
+}
+
+th, td {
+    border: .5px solid blueviolet;
+    table-layout: inherit;
+    width: 250px;
+    text-align: center;
+}
+
+.tag, .attribute {
+    margin: 10px 10px 20px 250px;
+    border: 2px solid blueviolet;
+}
